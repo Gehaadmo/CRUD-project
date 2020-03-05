@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index-style.css">
+</head>
+
+<body>
+
+
+    <div id="form" class="container p-5">
+        <div class="form-group">
+            <label>Product Name : </label>
+            <input id="inpName" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Product Price : </label>
+            <input id="inpPrice" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Product category : </label>
+            <input id="inpCat" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Product Description : </label>
+            <input id="inpDesc" class="form-control">
+        </div>
+        <button onclick="addProduct()" class="btn btn-primary my-2" id="myBtn"> add </button>
+    </div>
+
+    <section class="search">
+        <div class="container searchBar mb-4 form-group w-50 m-auto">
+            <input onkeyup="searchProduct(this.value)" class="form-control" placeholder="search product" id="search">
+        </div>
+    </section>
+
+
+    <section class="items">
+        <div class="container p-3">
+            <div class="row my-2"  id="display">
+                
+              
+            </div>
+
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

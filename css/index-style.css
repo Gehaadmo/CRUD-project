@@ -1,0 +1,25 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+.item
+{
+    background-color: #8C8C8C;
+    text-align: center;
+    padding: 5px;
+    border-radius : 3px ;
+}
+.item h4
+{
+    color : #401B13;
+    font-weight: 700;
+}
+.item h5
+{
+    color: #F2AD94;
+    font-weight: 500;
+}
+.item p
+{
+    color : #0D0D0D;
+}
